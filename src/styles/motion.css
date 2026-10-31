@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Hulpstijlen voor de animaties (fase 3). Zonder JS of met reduced motion
+   blijft alles gewoon zichtbaar.
+   ========================================================================== */
+
+/* ---------- Intro / loader ---------- */
+.is-loading { overflow: hidden; }
+.is-loading .loader {
+  display: block; position: fixed; inset: 0; z-index: 100; background: var(--color-bg-rose);
+  animation: loader-failsafe 0s 6s forwards; /* vangnet als JS faalt */
+}
+.loader__line { position: absolute; left: 0; right: 0; top: var(--y, 34%); border-top: var(--line); transform: scaleX(0); transform-origin: left; }
+.loader__count { position: absolute; right: var(--gutter); bottom: clamp(1.5rem, 4vh, 3rem); font-size: clamp(4rem, 10vw, 9rem); color: var(--color-brand); }
+@keyframes loader-failsafe { to { visibility: hidden; opacity: 0; } }
+
+/* gordijn dat de lijn van de hero 'tekent' (schuift naar rechts weg) */
+.hero__frame-cover {
+  position: absolute; left: 0; right: 0; top: calc(var(--hero-line-y, 34%) - 2px); bottom: 0;
+  background: var(--color-bg-rose); transform: translateX(101%); pointer-events: none;
+}
+.hero__tagline { position: relative; z-index: 1; }
+
+/* idem voor de lijn bij contact */
+.contact__row-cover {
+  position: absolute; left: 3.25rem; right: calc(var(--gutter) * -0.1 - 2px); bottom: -2px; top: -300vh;
+  background: var(--color-bg-ice); transform: translateX(101%); pointer-events: none;
+}
+.contact__lead, .contact__title, .contact__mail, .contact__dot { position: relative; z-index: 1; }
+.contact__dot { position: absolute; }
+
+/* ---------- Beeld-gordijnen ---------- */
+.about__visual, .ov-card__media { overflow: hidden; }
+.cover { position: absolute; inset: -1px; z-index: 2; background: var(--bg, var(--color-bg-rose)); pointer-events: none; }
+.about__visual .cover { background: var(--color-bg-rose); }
+
+/* ---------- Exploded view (luchtreiniger) ---------- */
+.ch__fig.is-exploding picture { opacity: 0; }
+.exploded { position: absolute; left: 50%; top: 50%; width: var(--w); height: var(--h); transform: translate(-50%, -50%); }
+.exploded span {
+  position: absolute; left: 0; right: 0; top: calc(var(--h) / var(--n) * var(--i)); height: calc(var(--h) / var(--n) + 1px);
+  background-size: var(--w) var(--h); background-position: 0 calc(var(--h) / var(--n) * var(--i) * -1);
+  background-repeat: no-repeat; will-change: transform;
+}
+
+/* ---------- Eigen cursor ---------- */
+.has-cursor, .has-cursor a, .has-cursor button { cursor: none; }
+.has-cursor .cursor {
+  display: block; position: fixed; left: 0; top: 0; z-index: 300; width: 0; height: 0;
+  pointer-events: none; opacity: 0;
+}
+.has-cursor .cursor::before {
+  content: ''; position: absolute; left: -5px; top: -5px; width: 10px; height: 10px; border-radius: 50%;
+  background: var(--color-brand); transition: transform 0.45s var(--ease-out), opacity 0.3s;
+}
+.cursor[data-state='link']::before { transform: scale(3.2); opacity: 0.35; }
+.cursor[data-state='label']::before { transform: scale(8.5); opacity: 1; }
+.cursor__label {
+  position: absolute; left: 0; top: 0; transform: translate(-50%, -50%) scale(0.6); opacity: 0;
+  color: var(--color-card); font-weight: var(--w-book); font-size: 0.85rem; white-space: nowrap;
+  transition: transform 0.45s var(--ease-out), opacity 0.3s;
+}
+.cursor[data-state='label'] .cursor__label { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+/* in de procesweergave (modale laag) moet de cursor erboven blijven */
+.process .cursor { z-index: 301; }
+
+@media (prefers-reduced-motion: reduce) {
+  .loader, .hero__frame-cover, .contact__row-cover, .cover, .exploded { display: none !important; }
+  .ch__fig.is-exploding picture { opacity: 1; }
+}

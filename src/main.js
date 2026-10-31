@@ -98,4 +98,10 @@ $$('.process').forEach((dlg) => {
 });
 
 /* ---------- Animaties laden (fase 3) ---------- */
-import('./motion.js').then((m) => m.init?.()).catch(() => {});
+import('./motion.js')
+  .then((m) => m.init?.())
+  .catch((err) => {
+    // animaties mogen de site nooit blokkeren: loader weg, inhoud zichtbaar
+    console.error('Animaties konden niet starten:', err);
+    document.documentElement.classList.remove('is-loading');
+  });

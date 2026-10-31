@@ -147,7 +147,7 @@ function chapter(c, p) {
 }
 
 function processDialog(p, i) {
-  return `<dialog class="process" id="process-${p.id}" data-theme="${p.theme}" style="--accent:${p.accent};--accent-soft:${p.accentSoft};--bg:${p.bg}" aria-labelledby="process-title-${p.id}">
+  return `<dialog class="process" data-lenis-prevent id="process-${p.id}" data-theme="${p.theme}" style="--accent:${p.accent};--accent-soft:${p.accentSoft};--bg:${p.bg}" aria-labelledby="process-title-${p.id}">
     <div class="process__inner">
       <header class="process__head">
         <span class="process__num num" aria-hidden="true">${pad(i + 1)}</span>

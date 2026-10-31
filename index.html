@@ -7,6 +7,8 @@
   <meta name="description" content="Portfolio van {{SITE_NAME}}, student Productontwikkeling aan de Universiteit Antwerpen. {{TAGLINE}}">
   <meta name="author" content="{{SITE_NAME}}">
   <meta name="theme-color" content="#ECE3E6">
+  <!-- Intro alleen tonen als bewegingen toegestaan zijn -->
+  <script>if(!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('is-loading')</script>
   <link rel="icon" href="{{BASE}}favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{{BASE}}apple-touch-icon.png">
 
@@ -61,6 +63,7 @@
     <!-- 1. HERO — gebaseerd op de cover -->
     <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="hero__frame" aria-hidden="true"></div>
+      <span class="hero__frame-cover" aria-hidden="true"></span>
       <h1 class="hero__title" id="hero-title">
         <span class="hero__portfolio display">Portfolio</span>
         <span class="hero__name display">{{SITE_NAME}}</span>
@@ -143,6 +146,7 @@
       <div class="contact__frame" aria-hidden="true"></div>
       <p class="contact__lead display">Laten we samen iets maken.</p>
       <div class="contact__row">
+        <span class="contact__row-cover" aria-hidden="true"></span>
         <span class="contact__dot" aria-hidden="true"></span>
         <h2 class="contact__title" id="contact-title">Contact</h2>
         <a class="contact__mail" href="mailto:{{EMAIL}}" data-magnetic>{{EMAIL}}</a>
