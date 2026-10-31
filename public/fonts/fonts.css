@@ -1,0 +1,9 @@
+/* Coolvetica (Typodermic) — gewichten: 200 ExtraLight · 300 Light · 400 Book · 500 Regular */
+@font-face { font-family: 'Coolvetica'; font-weight: 200; font-style: normal; font-display: swap;
+  src: url('coolvetica-el.woff2') format('woff2'), url('coolvetica-el.otf') format('opentype'); }
+@font-face { font-family: 'Coolvetica'; font-weight: 300; font-style: normal; font-display: swap;
+  src: url('coolvetica-lt.woff2') format('woff2'), url('coolvetica-lt.otf') format('opentype'); }
+@font-face { font-family: 'Coolvetica'; font-weight: 400; font-style: normal; font-display: swap;
+  src: url('coolvetica-bk.woff2') format('woff2'), url('coolvetica-bk.otf') format('opentype'); }
+@font-face { font-family: 'Coolvetica'; font-weight: 500; font-style: normal; font-display: swap;
+  src: url('coolvetica-rg.woff2') format('woff2'), url('coolvetica-rg.otf') format('opentype'); }

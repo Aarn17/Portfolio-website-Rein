@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{SITE_NAME}} — {{ROLE}} | Portfolio</title>
+  <meta name="description" content="Portfolio van {{SITE_NAME}}, student Productontwikkeling aan de Universiteit Antwerpen. {{TAGLINE}}">
+  <meta name="author" content="{{SITE_NAME}}">
+  <meta name="theme-color" content="#ECE3E6">
+  <link rel="icon" href="{{BASE}}favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{BASE}}apple-touch-icon.png">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{SITE_NAME}} — {{ROLE}}">
+  <meta property="og:description" content="{{TAGLINE}}">
+  <meta property="og:image" content="{{BASE}}og-image.jpg">
+  <meta property="og:locale" content="nl_BE">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Coolvetica: de twee gewichten boven de vouw vooraf laden -->
+  <link rel="preload" href="{{BASE}}fonts/coolvetica-el.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{BASE}}fonts/coolvetica-bk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{BASE}}fonts/fonts.css">
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Naar de inhoud</a>
+
+  <!-- Intro / preloader (wordt in fase 3 geanimeerd) -->
+  <div class="loader" aria-hidden="true">
+    <span class="loader__line"></span>
+    <span class="loader__count num">0</span>
+  </div>
+
+  <!-- Navigatie -->
+  <header class="nav">
+    <a class="nav__brand" href="#top">{{SITE_NAME}}</a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+      <span class="visually-hidden">Menu</span><span class="nav__burger" aria-hidden="true"></span>
+    </button>
+    <nav id="nav-menu" class="nav__menu" aria-label="Hoofdnavigatie">
+      <ul>
+        <li><a href="#over-mij">Over mij</a></li>
+        <li><a href="#aanbod">Aanbod</a></li>
+        <li><a href="#projecten">Projecten</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Verticale paginabolletjes (motief uit de PDF) -->
+  <ol class="pager" aria-hidden="true">
+    <li data-target="top"></li><li data-target="over-mij"></li><li data-target="aanbod"></li>
+    <li data-target="projecten"></li><li data-target="skills"></li><li data-target="contact"></li>
+  </ol>
+
+  <main id="main">
+
+    <!-- 1. HERO — gebaseerd op de cover -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__frame" aria-hidden="true"></div>
+      <h1 class="hero__title" id="hero-title">
+        <span class="hero__portfolio display">Portfolio</span>
+        <span class="hero__name display">{{SITE_NAME}}</span>
+      </h1>
+      <p class="hero__tagline lead">{{TAGLINE}}</p>
+      <div class="hero__foot">
+        <p class="hero__works"><span>{{SELECTED}}</span><span class="num-light">{{PERIOD}}</span></p>
+        <p class="hero__discipline"><span class="brand-dot" aria-hidden="true"></span>{{DISCIPLINE}}</p>
+      </div>
+    </section>
+
+    <!-- 2. OVER MIJ — gebaseerd op pagina 2 -->
+    <section class="about section" id="over-mij" aria-labelledby="about-title">
+      <div class="about__card">
+        <div class="about__visual">
+          {{PORTRAIT}}
+        </div>
+        <div class="about__content">
+          <header class="about__head">
+            <h2 class="about__name display" id="about-title">{{FIRST_NAME}}</h2>
+            <p class="about__role">{{ROLE_NL}}</p>
+          </header>
+          <p class="about__intro body-lg">{{INTRO}}</p>
+          <div class="about__grid">
+            <div>
+              <h3 class="h-light">Visie</h3>
+              <p class="body">{{VISION}}</p>
+            </div>
+            <div>
+              <h3 class="h-light">Opleiding &amp; ervaring</h3>
+              <dl class="facts">{{EDUCATION}}</dl>
+            </div>
+            <div>
+              <h3 class="h-light">Interesses</h3>
+              <ul class="chips">{{INTERESTS}}</ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. WAT IK AANBIED -->
+    <section class="services section" id="aanbod" aria-labelledby="services-title">
+      <header class="section__head">
+        <h2 class="section__title display" id="services-title">Wat ik aanbied</h2>
+        <p class="section__kicker">Van concept tot render</p>
+      </header>
+      <ol class="services__list">{{SERVICES}}</ol>
+    </section>
+
+    <!-- 4. PROJECTEN — overzicht (pagina 3) + per project een spread -->
+    <section class="projects" id="projecten" aria-labelledby="projects-title">
+      <header class="section__head section">
+        <h2 class="section__title display" id="projects-title">Projecten</h2>
+        <p class="section__kicker">{{SELECTED}} <span class="num-light">{{PERIOD}}</span></p>
+      </header>
+      <ol class="overview section">{{OVERVIEW}}</ol>
+      <div class="spreads">{{SPREADS}}</div>
+    </section>
+
+    <!-- 5. SKILLS & TOOLS -->
+    <section class="skills section" id="skills" aria-labelledby="skills-title">
+      <header class="section__head">
+        <h2 class="section__title display" id="skills-title">Skills &amp; tools</h2>
+      </header>
+      <div class="skills__grid">
+        <div>
+          <h3 class="h-light">Digitale vaardigheden</h3>
+          <ul class="skills__list">{{SKILLS}}</ul>
+        </div>
+        <div>
+          <h3 class="h-light">Soft skills</h3>
+          <ul class="chips">{{SOFT_SKILLS}}</ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT — gebaseerd op de slotpagina -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__frame" aria-hidden="true"></div>
+      <p class="contact__lead display">Laten we samen iets maken.</p>
+      <div class="contact__row">
+        <span class="contact__dot" aria-hidden="true"></span>
+        <h2 class="contact__title" id="contact-title">Contact</h2>
+        <a class="contact__mail" href="mailto:{{EMAIL}}" data-magnetic>{{EMAIL}}</a>
+      </div>
+      <ul class="contact__links">
+        <li><a href="{{LINKEDIN}}" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a></li>
+        <li><a href="tel:{{PHONE_HREF}}">{{PHONE}}</a></li>
+        <li><span>{{LOCATION}}</span></li>
+        <li><a class="btn btn--line" href="{{PDF}}" download data-magnetic>Download portfolio (PDF) <span aria-hidden="true">↓</span></a></li>
+      </ul>
+      <footer class="footer">
+        <p>© {{YEAR}} {{SITE_NAME}}</p>
+        <a href="#top" class="footer__top">Terug naar boven ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <!-- Procesweergaves per project -->
+  {{DIALOGS}}
+
+  <!-- Eigen cursor (alleen desktop, fase 3) -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "rein-lasure-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "shots": "node scripts/shots.mjs"
+  },
+  "dependencies": {
+    "gsap": "3.13.0",
+    "lenis": "1.3.4"
+  },
+  "devDependencies": {
+    "playwright-core": "1.52.0",
+    "vite": "6.3.5"
+  }
+}

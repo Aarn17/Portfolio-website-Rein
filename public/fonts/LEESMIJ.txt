@@ -1,0 +1,9 @@
+Plaats hier de Coolvetica-fontbestanden (Typodermic) met exact deze namen:
+
+  coolvetica-el.woff2   ExtraLight  (titels, lopende tekst)
+  coolvetica-lt.woff2   Light       (tussenkoppen)
+  coolvetica-bk.woff2   Book        (nummers, kernwoorden)
+  coolvetica-rg.woff2   Regular     ('Ontwerpdoel', nadruk)
+
+Heb je enkel .otf of .ttf? Zet ze er dan in met dezelfde naam en extensie .otf
+(bv. coolvetica-el.otf) — die worden als fallback geladen. WOFF2 is wel sneller.

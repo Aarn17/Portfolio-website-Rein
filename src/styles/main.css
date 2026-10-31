@@ -1,0 +1,6 @@
+/* Volgorde is belangrijk: eerst huisstijl-tokens, dan basis, dan secties. */
+@import './tokens.css';
+@import './base.css';
+@import './sections.css';
+@import './process.css';
+@import './responsive.css';

@@ -1,0 +1,286 @@
+{
+  "_comment": "Alle projecten. Volgorde in deze lijst = volgorde op de site. Beelden verwijzen naar public/images/<naam>-<breedte>.<ext> (zie README).",
+  "projects": [
+    {
+      "id": "dierenspotter",
+      "title": "Dierenspotter",
+      "theme": "ice",
+      "accent": "var(--color-dierenspotter)",
+      "accentSoft": "var(--color-dierenspotter-soft)",
+      "bg": "var(--color-bg-ice)",
+      "hero": { "image": "dierenspotter-hero", "alt": "Render van de Dierenspotter: een zwart veelhoekig object met lichtgevende randen en het beeld van een beer op het display." },
+      "goal": "Ontwerp van een interactief product dat natuurliefhebbers de spanning van het nachtelijk wildleven laat ervaren met focus op intuïtieve interactie en gebruiksvriendelijkheid.",
+      "keywords": ["Mens-product relatie", "Intuïtieve interactie", "Gebruiksgemak"],
+      "meta": { "team": "2 personen", "duur": "8 weken", "jaar": "2024" },
+      "chapters": [
+        {
+          "title": "Contextmoodboard",
+          "text": "Het contextmoodboard illustreert een individu die gepassioneerd is door natuur en dieren, actief is in de buitenlucht en zijn of haar vrije tijd besteedt aan het observeren van dieren met een speciale interesse in nachtelijke avonturen in het bos.",
+          "layout": "media-side",
+          "images": [{ "name": "dierenspotter-contextmoodboard", "alt": "Contextmoodboard met een natuurfotograaf die 's nachts dieren observeert." }]
+        },
+        {
+          "title": "Vormmoodboard",
+          "text": "Dit vormmoodboard straalt een stoere, simplistische en dynamische sfeer uit. De kleuren zijn neutraal en aards, wat staat voor een tijdloos karakter.",
+          "layout": "media-side",
+          "images": [{ "name": "dierenspotter-vormmoodboard", "alt": "Vormmoodboard met sculpturale objecten in neutrale, aardse tinten." }]
+        },
+        {
+          "title": "Schetsen",
+          "text": "Al schetsend hebben we de gewenste vormgeving kunnen benaderen alsook verschillende technische interactie-elementen onderzocht.",
+          "layout": "sketches",
+          "images": [
+            { "name": "dierenspotter-schets-1", "alt": "Lijnschetsen van ovale vormstudies en interactie-elementen." },
+            { "name": "dierenspotter-schets-2", "alt": "Schets van de veelhoekige vorm met de punten intuïtief, interactie, alarm en dieren spotten." },
+            { "name": "dierenspotter-schets-3", "alt": "Schetsen van de veelhoekige behuizing in verschillende posities, gesloten en geopend." }
+          ]
+        },
+        {
+          "title": "Eerste kartonmodellen",
+          "text": "Door onze eerste ideeën te visualiseren aan de hand van kartonmodellen konden we voeling krijgen over de product-gebruiker relatie en de concepten verder uitdiepen.",
+          "layout": "grid-3x2",
+          "images": [
+            { "name": "dierenspotter-karton-1", "alt": "Eerste kartonmodel, ovale vorm." },
+            { "name": "dierenspotter-karton-2", "alt": "Eerste kartonmodel met opengevouwen vleugels." },
+            { "name": "dierenspotter-karton-3", "alt": "Eerste kartonmodel, ovale vorm van opzij." },
+            { "name": "dierenspotter-karton-4", "alt": "Eerste kartonmodel, veelhoekige vorm." },
+            { "name": "dierenspotter-karton-5", "alt": "Eerste kartonmodel, ovale vorm op voet." },
+            { "name": "dierenspotter-karton-6", "alt": "Eerste kartonmodel, veelhoekige vorm liggend." }
+          ]
+        },
+        {
+          "title": "Tussenjury kartonmodel",
+          "text": "Aan de hand van een gedeeltelijk uitgewerkt kartonmodel kon de werking van het product en de interactie met de gebruiker gedemonstreerd worden.",
+          "layout": "grid-3x2",
+          "images": [
+            { "name": "dierenspotter-tussenjury-1", "alt": "Tussenjury-kartonmodel wordt vastgehouden." },
+            { "name": "dierenspotter-tussenjury-2", "alt": "Tussenjury-kartonmodel wordt geopend." },
+            { "name": "dierenspotter-tussenjury-3", "alt": "Detail van het tussenjury-kartonmodel." },
+            { "name": "dierenspotter-tussenjury-4", "alt": "Tussenjury-kartonmodel met geopende vleugels." },
+            { "name": "dierenspotter-tussenjury-5", "alt": "Tussenjury-kartonmodel half geopend." },
+            { "name": "dierenspotter-tussenjury-6", "alt": "Tussenjury-kartonmodel volledig geopend." }
+          ]
+        },
+        {
+          "title": "Werking",
+          "layout": "steps",
+          "steps": [
+            { "n": 1, "text": "Diersoort selecteren voor de nacht.", "images": [{ "name": "dierenspotter-stap-1", "alt": "Gesloten Dierenspotter met een beer op het display." }] },
+            { "n": 2, "text": "Gedeeltelijke opening van vleugels indien gekozen diersoort geregistreerd wordt.", "note": "Licht en geluid indien gekozen diersoort geregistreerd wordt.", "images": [{ "name": "dierenspotter-stap-2a", "alt": "De vleugels openen gedeeltelijk." }, { "name": "dierenspotter-stap-2b", "alt": "Gedeeltelijk geopende Dierenspotter." }] },
+            { "n": 3, "text": "Vleugels handmatig volledig openen om livestream te starten.", "images": [{ "name": "dierenspotter-stap-3", "alt": "Volledig geopende vleugels." }] },
+            { "n": 4, "text": "Livestream bekijken.", "images": [{ "name": "dierenspotter-stap-4", "alt": "Geopende Dierenspotter met een livestream van beren." }] }
+          ]
+        },
+        {
+          "title": "Finaal concept",
+          "text": "Om tot het finaal ontwerp te komen, verfijnden we de interactie tussen gebruiker en product. Daarnaast bepaalden we een passende lichtkleur die de beleving versterkt en specifieerden we de algehele werking om tot een eindontwerp te komen met een sterke wisselwerking tussen gebruikslogica en vormgeving.",
+          "layout": "media-side",
+          "images": [{ "name": "dierenspotter-exploded", "alt": "Exploded view van het finale concept met zichtbare luidspreker." }]
+        },
+        {
+          "title": "Finale werking",
+          "layout": "steps",
+          "steps": [
+            { "n": 1, "text": "Zijwaartse beweging om te scrollen tussen dieren.", "images": [{ "name": "dierenspotter-finaal-1", "alt": "Drie posities van het product met een beer en uilen op het display." }] },
+            { "n": 2, "text": "Product opent gedeeltelijk en straalt licht uit bij detectie.", "note": "Luidspreker die geluid uitzendt bij detectie.", "images": [{ "name": "dierenspotter-finaal-2", "alt": "Gedeeltelijk geopend product dat warm licht uitstraalt." }, { "name": "dierenspotter-luidspreker", "alt": "Detail van de luidspreker." }] },
+            { "n": 3, "text": "Volledig openen van product om live beelden te bekijken.", "images": [{ "name": "dierenspotter-finaal-3a", "alt": "Product met vleugels half open." }, { "name": "dierenspotter-finaal-3b", "alt": "Product volledig geopend." }] },
+            { "n": 4, "text": "Product kantelen en genieten van live beelden van jouw favoriete dieren.", "images": [{ "name": "dierenspotter-finaal-4", "alt": "Gekanteld product met live beelden van uilen." }] }
+          ]
+        },
+        {
+          "title": "Finaal kartonmodel",
+          "text": "Bij het finale kartonmodel lag de nadruk op een verfijnde vorm en uitstraling. Dit model bood een representatieve weergave van het uiteindelijke ontwerp waarmee de werking en gebruikersinteracties overtuigend gecommuniceerd konden worden.",
+          "layout": "grid-2x2-plus",
+          "images": [
+            { "name": "dierenspotter-kartonfinaal-1", "alt": "Finaal kartonmodel, gesloten." },
+            { "name": "dierenspotter-kartonfinaal-2", "alt": "Finaal kartonmodel, vleugels half open." },
+            { "name": "dierenspotter-kartonfinaal-3", "alt": "Finaal kartonmodel, vleugels uitgeklapt." },
+            { "name": "dierenspotter-kartonfinaal-4", "alt": "Finaal kartonmodel, volledig geopend." },
+            { "name": "dierenspotter-test-1", "alt": "Gebruikerstest 's nachts: het model straalt licht uit naast het bed." },
+            { "name": "dierenspotter-test-2", "alt": "Gebruikerstest: de gebruiker opent het verlichte model." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schiller",
+      "title": "Schiller",
+      "theme": "mauve",
+      "accent": "var(--color-schiller)",
+      "accentSoft": "var(--color-schiller-soft)",
+      "bg": "var(--color-bg-mauve)",
+      "hero": { "image": "schiller-hero", "alt": "Bovenaanzicht van de schiller: roze soft-touch lichaam met een roestvrijstalen mes." },
+      "goal": "Herontwerp van de schiller als onderdeel van een productfamilie met de focus op ergonomie en merkconsistentie.",
+      "keywords": ["Ergonomie", "Consistente merkidentiteit", "Samenwerking"],
+      "meta": { "team": "individueel", "duur": "8 weken", "jaar": "2024" },
+      "chapters": [
+        {
+          "title": "Schetsen",
+          "text": "De schetsfase bestond uit het verkennen van diverse vormen en mogelijke gebruiksscenario's van de schiller. Deze exploraties legden de basis voor de ergonomische keuzes verder in het proces.",
+          "layout": "sketches",
+          "images": [
+            { "name": "schiller-schetsen", "alt": "Vormstudies van de schiller in lijnschetsen." },
+            { "name": "schiller-schetsen-foto", "alt": "Zwart-witfoto van het schetsen op een tablet." },
+            { "name": "schiller-mechanisme", "alt": "Schetsen van het mesmechanisme en de bevestiging van het mes." }
+          ]
+        },
+        {
+          "title": "Prototypes",
+          "text": "De eerste schuimmodellen dienden om de belangrijkste ergonomische handelingen snel te verifiëren. Op basis van deze inzichten werd een 3D-geprint model ontwikkeld om het finale ontwerp helder te visualiseren.",
+          "layout": "prototypes",
+          "images": [
+            { "name": "schiller-constructie-1", "alt": "Constructieschets van de schiller in perspectief." },
+            { "name": "schiller-constructie-2", "alt": "Constructieschets van het zijaanzicht." },
+            { "name": "schiller-constructie-3", "alt": "Constructieschets van het bovenaanzicht." },
+            { "name": "schiller-schuimmodellen", "alt": "Drie schuimmodellen van de schiller." },
+            { "name": "schiller-3dprint", "alt": "Het 3D-geprinte model van de schiller." }
+          ]
+        },
+        {
+          "title": "Merkidentiteit",
+          "text": "Door een uniforme vormtaal en duidelijke stilistische richtlijnen te bepalen, bouwden we een consistente merkidentiteit die de volledige productfamilie met elkaar verbindt.",
+          "layout": "brand",
+          "images": [
+            { "name": "schiller-mockup", "alt": "Huisstijlmockup met briefpapier, visitekaartjes en badge." },
+            { "name": "schiller-logo-kleur", "alt": "Logo Zoki in kleur." },
+            { "name": "schiller-logo-zwart", "alt": "Logo Zoki in zwart." },
+            { "name": "schiller-logo-zwartwit", "alt": "Logo Zoki in zwart-wit." }
+          ]
+        },
+        {
+          "title": "Het ontwerp",
+          "layout": "features",
+          "features": [
+            { "title": "Verdikt handvat", "text": "Het dik handvat voorziet een ergonomische ligging van de schiller in de hand waarbij de duim ondersteund wordt. Dit draagt bij aan grotere precisie, gerichte krachtoverbrenging en minimale last bij gebruik.", "image": { "name": "schiller-zijaanzicht", "alt": "Zijaanzicht van de schiller met het verdikte handvat." } },
+            { "title": "Symmetrie", "text": "De symmetrische opbouw van de schiller zorgt ervoor dat het product zonder belemmering gehanteerd kan worden door links- en rechtshandigen.", "image": { "name": "schiller-bovenaanzicht", "alt": "Bovenaanzicht van de symmetrische schiller." }, "annotation": "Ophanghaakje" },
+            { "title": "2 in 1", "text": "De aangebrachte zester zorgt voor een vlotte wissel tussen schillen en zestes creëren.", "image": { "name": "schiller-2in1", "alt": "Zijaanzicht met de geïntegreerde zester." } },
+            { "title": "Eenvoudig bereikbaar", "text": "Door de aangebrachte opening in de zester kan de schiller aan een haak boven het werkblad gehangen worden. Hierdoor kan de gebruiker met een minimum aan handelingen het gebruik aanvangen.", "image": { "name": "schiller-keuken", "alt": "De schiller hangt aan een haak tussen keukengerei." } }
+          ],
+          "images": [
+            { "name": "schiller-hand", "alt": "Render van de schiller in een geschetste hand." },
+            { "name": "schiller-materialen", "alt": "Render van de schiller met aanduiding van de materialen.", "annotations": ["Stainless steel", "Soft-touch"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luchtreiniger",
+      "title": "Luchtreiniger",
+      "theme": "blush",
+      "accent": "var(--color-luchtreiniger)",
+      "accentSoft": "var(--color-luchtreiniger-soft)",
+      "bg": "var(--color-bg-blush)",
+      "hero": { "image": "luchtreiniger-hero", "alt": "Render van de witte Sygonix-luchtreiniger met roze bedieningspaneel." },
+      "goal": "Optimalisatie van het assemblageproces van een bestaand product met oog voor productietechnieken en toetsing via 3D-geprinte prototypes.",
+      "keywords": ["Maakbaarheid", "Optimalisatie assemblage", "Productanalyse"],
+      "meta": { "team": "3 personen", "duur": "6 weken", "jaar": "2024" },
+      "chapters": [
+        {
+          "title": "Productanalyse",
+          "text": "In een eerste fase voerden we een productanalyse aan de hand van het fysieke model uit met als doel vat te krijgen op de voornaamste knelpunten van het ontwerp.",
+          "layout": "analysis",
+          "images": [
+            { "name": "luchtreiniger-ring", "alt": "Ring met gemarkeerd knelpunt." },
+            { "name": "luchtreiniger-ventilator", "alt": "Ventilatorunit met bekabeling en gemarkeerd knelpunt." },
+            { "name": "luchtreiniger-filter", "alt": "Filterbehuizing met gemarkeerde knelpunten." },
+            { "name": "luchtreiniger-pcb", "alt": "PCB met gemarkeerde connectoren." },
+            { "name": "luchtreiniger-rooster", "alt": "Uitlaatrooster met gemarkeerd knelpunt." }
+          ]
+        },
+        {
+          "title": "Europese richtlijnen",
+          "text": "Door de relevante Europese richtlijnen grondig door te nemen, konden we belangrijke aandachtspunten definiëren die rechtstreeks bijdragen aan een efficiënter en conform assemblageproces. Deze inzichten vormden een waardevolle basis voor verdere ontwerpaanpassingen.",
+          "layout": "media-wide",
+          "images": [{ "name": "luchtreiniger-onderdelen", "alt": "Alle gedemonteerde onderdelen van de luchtreiniger naast elkaar." }]
+        },
+        {
+          "title": "3D-geprinte onderdelen",
+          "text": "Aan de hand van 3D-geprinte onderdelen konden we valideren of onze oplossingen in het groter geheel van de luchtreiniger pasten. Daarnaast was het eenvoudig om fouten met betrekking tot de productiemethoden op deze manier op te sporen.",
+          "layout": "prints",
+          "images": [
+            { "name": "luchtreiniger-print-1", "alt": "3D-geprint binnenonderdeel." },
+            { "name": "luchtreiniger-print-2", "alt": "3D-geprinte ring." },
+            { "name": "luchtreiniger-print-3", "alt": "Hand plaatst een 3D-geprinte ring op de behuizing." },
+            { "name": "luchtreiniger-print-4", "alt": "3D-geprinte bovenbehuizing." },
+            { "name": "luchtreiniger-print-5", "alt": "Grote 3D-geprinte ring." }
+          ],
+          "list": {
+            "title": "Verbeteringen",
+            "items": [
+              "Geoptimaliseerde kabelgeleiding",
+              "Structurering van connectoren in kabelhuls",
+              "Herziene positionering van onder- en bovenbehuizing",
+              "Intuïtieve verankering van PCB-houder ring en PCB-display",
+              "Eenduidige montage van bedieningspaneel"
+            ]
+          }
+        },
+        {
+          "title": "Finaal ontwerp",
+          "text": "Aan de hand van een CAD-model waarin alle aanpassingen doorgevoerd zijn, konden we het finale ontwerp voorstellen. Daarnaast heeft dit model ons mede geholpen bij het valideren van de doorgevoerde oplossingen.",
+          "layout": "final",
+          "images": [
+            { "name": "luchtreiniger-kantoor", "alt": "De luchtreiniger op een bureau in een kantooromgeving." },
+            { "name": "luchtreiniger-finaal", "alt": "Close-up render van de bovenkant met bedieningspaneel." }
+          ]
+        },
+        {
+          "title": "Onderdelen",
+          "layout": "parts",
+          "images": [
+            { "name": "luchtreiniger-exploded", "alt": "Verticale exploded view van alle onderdelen." },
+            { "name": "luchtreiniger-onderdelen-grid", "alt": "Genummerde onderdelen van bovenaf." }
+          ],
+          "parts": [
+            "Basis behuizing", "Onderbehuizing", "Bovenbehuizing", "Steundopjes", "Decoratieve ring", "Ondercapsule",
+            "Bovencapsule", "Ventilator", "PCB-houder", "PCB-houder ring", "PCB-display", "Aanloopcondensator",
+            "Bedieningspaneel", "Motor", "Centrifugaalventilator", "Filter", "Filterschuim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "koffiemachine",
+      "title": "Koffiemachine",
+      "theme": "ice",
+      "accent": "var(--color-koffiemachine)",
+      "accentSoft": "var(--color-koffiemachine-soft)",
+      "bg": "var(--color-bg-ice)",
+      "hero": { "image": "koffiemachine-hero", "alt": "Zijaanzicht van de blauwgrijze koffiemachine met dampende kan." },
+      "goal": "Reconstructie van een bestaand model via precieze surface-modellering in SolidWorks met nadruk op esthetische zuiverheid en oppervlaktekwaliteit.",
+      "keywords": ["SolidWorks", "Surfacing", "Rendering"],
+      "meta": { "team": "individueel", "duur": "4 weken", "jaar": "2024" },
+      "chapters": [
+        {
+          "title": "Referentie",
+          "text": "Deze opdracht had als doel een bestaand ontwerp zo getrouw mogelijk na te modelleren aan de hand van referentiebeelden. Het originele ontwerp is afkomstig van Matyas Magyar, waarvan hiernaast beeldmateriaal ter referentie wordt weergegeven.",
+          "layout": "reference",
+          "images": [
+            { "name": "koffiemachine-ref-1", "alt": "Referentiebeeld van het originele ontwerp van Matyas Magyar, driekwartaanzicht." },
+            { "name": "koffiemachine-ref-2", "alt": "Referentiebeeld van het originele ontwerp, zijaanzicht." },
+            { "name": "koffiemachine-ref-3", "alt": "Referentiebeeld van het originele ontwerp, vooraanzicht." }
+          ]
+        },
+        {
+          "title": "Werkplek",
+          "layout": "workspace",
+          "images": [{ "name": "koffiemachine-werkplek", "alt": "Zwart-witfoto van de werkplek met het CAD-model op meerdere schermen." }],
+          "tools": [
+            { "name": "SolidWorks", "icon": "solidworks", "iconOnly": true },
+            { "name": "SolidWorks Visualize", "icon": "solidworks-visualize", "iconOnly": true },
+            { "name": "Photoshop", "icon": "photoshop" }
+          ]
+        },
+        {
+          "title": "Eindresultaat",
+          "layout": "triptych",
+          "images": [
+            { "name": "koffiemachine-achter", "alt": "Achteraanzicht van de koffiemachine met ventilatieroosters." },
+            { "name": "koffiemachine-voor", "alt": "Vooraanzicht van de koffiemachine." },
+            { "name": "koffiemachine-boven", "alt": "Bovenaanzicht van de koffiemachine met de verlichte bedieningsring." }
+          ]
+        }
+      ]
+    }
+  ]
+}

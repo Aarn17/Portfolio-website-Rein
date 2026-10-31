@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Huisstijl — exact overgenomen uit Rein_Lasure_Portfolio.pdf
+   Kleuren: gemeten op pixelniveau (en waar mogelijk bevestigd via vectordata).
+   Fonts: Coolvetica (Typodermic), zoals gebruikt in het Photoshop-bestand.
+   ========================================================================== */
+
+/* De @font-face-regels voor Coolvetica staan in public/fonts/fonts.css
+   (naast de fontbestanden, zodat de paden overal kloppen). */
+
+:root {
+  /* --- Achtergronden --- */
+  --color-bg-rose: #ECE3E6;   /* cover, over mij (vector) */
+  --color-bg-mauve: #E8DCE1;  /* project Schiller (vector) */
+  --color-bg-blush: #F3E7EB;  /* project Luchtreiniger */
+  --color-bg-ice: #D8E6EE;    /* project Dierenspotter, Koffiemachine, contact (vector) */
+  --color-card: #F0F0F0;      /* binnenkaart procespagina's */
+
+  /* --- Tekst & lijnen --- */
+  --color-ink: #000000;
+  --color-line: #231F20;      /* dunne lijnen (vector) */
+
+  /* --- Accenten --- */
+  --color-brand: #A2143A;                 /* merkrood: bolletje, skill-dots, portretvlak */
+  --color-schiller: #ED4583;
+  --color-schiller-soft: #EEB6CB;
+  --color-luchtreiniger: #D28DBA;
+  --color-luchtreiniger-soft: #EBCDD9;
+  --color-dierenspotter: #363545;
+  --color-dierenspotter-soft: #868D97;
+  --color-koffiemachine: #5E8BA8;
+  --color-koffiemachine-soft: #AEC5D3;
+
+  /* Afgeleid uit het palet (transparantie van bestaande kleuren, geen nieuwe tinten) */
+  --glass-fill: rgb(240 240 240 / 0.28);
+  --glass-line: rgb(240 240 240 / 0.85);
+  --shadow-soft: 0 1.5rem 3rem -1.5rem rgb(35 31 32 / 0.25);
+
+  /* --- Typografie --- */
+  --font: 'Coolvetica', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* fallback tot de fontbestanden er zijn */
+  --w-xlight: 200;  /* titels, lopende tekst */
+  --w-light: 300;   /* tussenkoppen */
+  --w-book: 400;    /* nummers, kernwoorden */
+  --w-regular: 500; /* 'Ontwerpdoel', nadruk */
+
+  --fs-display: clamp(4.5rem, 14vw, 15rem);
+  --fs-title: clamp(3.25rem, 9vw, 9.5rem);
+  --fs-num: clamp(3.5rem, 7vw, 7.5rem);
+  --fs-h: clamp(1.5rem, 2.4vw, 2.25rem);
+  --fs-lead: clamp(1.125rem, 1.45vw, 1.4rem);
+  --fs-body: clamp(1rem, 1.05vw, 1.125rem);
+  --fs-small: 0.9375rem;
+
+  --track-tight: -0.02em;
+
+  /* --- Ruimte & vorm --- */
+  --gutter: clamp(1rem, 4vw, 4.5rem);
+  --radius: clamp(1rem, 1.6vw, 1.75rem);
+  --radius-sm: 0.875rem;
+  --line: 1px solid var(--color-line);
+  --nav-h: 4.5rem;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}

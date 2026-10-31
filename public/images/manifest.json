@@ -1,0 +1,813 @@
+{
+ "about-portrait": {
+  "page": 2,
+  "src": "pdf",
+  "w": 911,
+  "h": 1402,
+  "sizes": [
+   800,
+   911
+  ]
+ },
+ "schiller-hero": {
+  "page": 4,
+  "src": "SolidWorks Renders/Product en Ergonomie/Appelschiller Visualize (3) 2.png",
+  "bg": "#E8DCE1",
+  "w": 1177,
+  "h": 1080,
+  "sizes": [
+   800,
+   1177
+  ]
+ },
+ "schiller-schetsen": {
+  "page": 5,
+  "src": "JPG Bestanden/Foto's Tekeningen/IMG_0550.png",
+  "inliers": 55,
+  "diff": 1.9,
+  "w": 2400,
+  "h": 1658,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "schiller-schetsen-foto": {
+  "page": 5,
+  "src": "JPG Bestanden/Foto's/DSC03932.JPG",
+  "inliers": 109,
+  "diff": 4.0,
+  "w": 2400,
+  "h": 1600,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "schiller-mechanisme": {
+  "page": 5,
+  "src": "pdf",
+  "w": 1814,
+  "h": 676,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "schiller-constructie-1": {
+  "page": 6,
+  "src": "JPG Bestanden/Foto's Tekeningen/IMG_0276.png",
+  "inliers": 129,
+  "diff": 0.7,
+  "w": 1188,
+  "h": 914,
+  "sizes": [
+   800,
+   1188
+  ]
+ },
+ "schiller-constructie-2": {
+  "page": 6,
+  "src": "pdf",
+  "w": 532,
+  "h": 262,
+  "sizes": [
+   532
+  ]
+ },
+ "schiller-constructie-3": {
+  "page": 6,
+  "src": "pdf",
+  "w": 720,
+  "h": 510,
+  "sizes": [
+   720
+  ]
+ },
+ "schiller-schuimmodellen": {
+  "page": 6,
+  "src": "pdf",
+  "w": 1560,
+  "h": 573,
+  "sizes": [
+   800,
+   1560
+  ]
+ },
+ "schiller-3dprint": {
+  "page": 6,
+  "src": "pdf",
+  "w": 592,
+  "h": 633,
+  "sizes": [
+   592
+  ]
+ },
+ "schiller-mockup": {
+  "page": 6,
+  "src": "JPG Bestanden/Product en Ergonomie Branding/HS_mockup3 kopie.png",
+  "inliers": 256,
+  "diff": 2.7,
+  "w": 2400,
+  "h": 1600,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "schiller-logo-kleur": {
+  "page": 6,
+  "src": "JPG Bestanden/Product en Ergonomie Branding/Logo kleur zonder achtergrond.jpg",
+  "inliers": 78,
+  "diff": 15.4,
+  "w": 1004,
+  "h": 972,
+  "sizes": [
+   800,
+   1004
+  ]
+ },
+ "schiller-logo-zwart": {
+  "page": 6,
+  "src": "JPG Bestanden/Product en Ergonomie Branding/Logo zwart.jpg",
+  "inliers": 78,
+  "diff": 12.7,
+  "w": 658,
+  "h": 660,
+  "sizes": [
+   658
+  ]
+ },
+ "schiller-logo-zwartwit": {
+  "page": 6,
+  "src": "JPG Bestanden/Product en Ergonomie Branding/Logo zwart-wit.jpg",
+  "inliers": 49,
+  "diff": 14.6,
+  "w": 671,
+  "h": 656,
+  "sizes": [
+   671
+  ]
+ },
+ "schiller-zijaanzicht": {
+  "page": 7,
+  "src": "pdf",
+  "w": 955,
+  "h": 355,
+  "sizes": [
+   800,
+   955
+  ]
+ },
+ "schiller-bovenaanzicht": {
+  "page": 7,
+  "src": "SolidWorks Renders/Product en Ergonomie/Appelschiller Visualize (4).png",
+  "inliers": 44,
+  "diff": 1.5,
+  "w": 775,
+  "h": 804,
+  "sizes": [
+   775
+  ]
+ },
+ "schiller-2in1": {
+  "page": 7,
+  "src": "SolidWorks Renders/Product en Ergonomie/Appelschiller Visualize zwev.png",
+  "inliers": 50,
+  "diff": 3.0,
+  "w": 1303,
+  "h": 623,
+  "sizes": [
+   800,
+   1303
+  ]
+ },
+ "schiller-hand": {
+  "page": 7,
+  "src": "pdf",
+  "w": 813,
+  "h": 892,
+  "sizes": [
+   800
+  ]
+ },
+ "schiller-materialen": {
+  "page": 7,
+  "src": "pdf",
+  "w": 660,
+  "h": 562,
+  "sizes": [
+   660
+  ]
+ },
+ "schiller-keuken": {
+  "page": 7,
+  "src": "SolidWorks Renders/Product en Ergonomie/Appelschiller Visualize (6).png",
+  "inliers": 560,
+  "diff": 7.5,
+  "w": 1080,
+  "h": 1074,
+  "sizes": [
+   800,
+   1080
+  ]
+ },
+ "luchtreiniger-hero": {
+  "page": 8,
+  "src": "SolidWorks Renders/Structural Design/Presentatierender (8).png",
+  "bg": "#F3E6EB",
+  "w": 1920,
+  "h": 1080,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "luchtreiniger-ring": {
+  "page": 9,
+  "src": "pdf",
+  "w": 355,
+  "h": 289,
+  "sizes": [
+   355
+  ]
+ },
+ "luchtreiniger-ventilator": {
+  "page": 9,
+  "src": "pdf",
+  "w": 610,
+  "h": 726,
+  "sizes": [
+   610
+  ]
+ },
+ "luchtreiniger-filter": {
+  "page": 9,
+  "src": "JPG Bestanden/Foto's Assemblage Bureau Luchtreiniger/Onder Behuizing.png",
+  "inliers": 188,
+  "diff": 6.2,
+  "w": 815,
+  "h": 738,
+  "sizes": [
+   800
+  ]
+ },
+ "luchtreiniger-pcb": {
+  "page": 9,
+  "src": "pdf",
+  "w": 455,
+  "h": 458,
+  "sizes": [
+   455
+  ]
+ },
+ "luchtreiniger-rooster": {
+  "page": 9,
+  "src": "pdf",
+  "w": 450,
+  "h": 453,
+  "sizes": [
+   450
+  ]
+ },
+ "luchtreiniger-onderdelen": {
+  "page": 9,
+  "src": "pdf",
+  "w": 1560,
+  "h": 1006,
+  "sizes": [
+   800,
+   1560
+  ]
+ },
+ "luchtreiniger-print-1": {
+  "page": 10,
+  "src": "JPG Bestanden/Foto's/DSC03898.JPG",
+  "inliers": 138,
+  "diff": 6.7,
+  "w": 1538,
+  "h": 1759,
+  "sizes": [
+   800,
+   1538
+  ]
+ },
+ "luchtreiniger-print-2": {
+  "page": 10,
+  "src": "JPG Bestanden/Foto's/DSC03904.JPG",
+  "inliers": 124,
+  "diff": 7.4,
+  "w": 2400,
+  "h": 1192,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "luchtreiniger-print-3": {
+  "page": 10,
+  "src": "pdf",
+  "w": 483,
+  "h": 829,
+  "sizes": [
+   483
+  ]
+ },
+ "luchtreiniger-print-4": {
+  "page": 10,
+  "src": "JPG Bestanden/Foto's/DSC03902.JPG",
+  "inliers": 75,
+  "diff": 3.7,
+  "w": 2128,
+  "h": 1658,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "luchtreiniger-print-5": {
+  "page": 10,
+  "src": "JPG Bestanden/Foto's/DSC03907.JPG",
+  "inliers": 41,
+  "diff": 8.7,
+  "w": 2400,
+  "h": 1172,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "luchtreiniger-kantoor": {
+  "page": 11,
+  "src": "SolidWorks Renders/Structural Design/Presentatierender (3) kopie.jpg",
+  "inliers": 401,
+  "diff": 16.3,
+  "w": 2400,
+  "h": 2253,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "luchtreiniger-finaal": {
+  "page": 11,
+  "src": "SolidWorks Renders/Structural Design/Presentatierender (5).png",
+  "inliers": 268,
+  "diff": 2.7,
+  "w": 1661,
+  "h": 983,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "luchtreiniger-exploded": {
+  "page": 11,
+  "src": "SolidWorks Renders/Structural Design/Presentatierender Exploded View Verticaal (2) 1.png",
+  "inliers": 197,
+  "diff": 12.0,
+  "w": 286,
+  "h": 1938,
+  "sizes": [
+   286
+  ]
+ },
+ "luchtreiniger-onderdelen-grid": {
+  "page": 11,
+  "src": "SolidWorks Renders/Structural Design/Presentatierender Exploded View Langs Boven (3).png",
+  "inliers": 243,
+  "diff": 0.9,
+  "w": 1226,
+  "h": 954,
+  "sizes": [
+   800,
+   1226
+  ]
+ },
+ "dierenspotter-hero": {
+  "page": 12,
+  "src": "pdf",
+  "w": 1402,
+  "h": 1595,
+  "sizes": [
+   800,
+   1402
+  ]
+ },
+ "dierenspotter-contextmoodboard": {
+  "page": 13,
+  "src": "pdf",
+  "w": 638,
+  "h": 450,
+  "sizes": [
+   638
+  ]
+ },
+ "dierenspotter-vormmoodboard": {
+  "page": 13,
+  "src": "pdf",
+  "w": 638,
+  "h": 453,
+  "sizes": [
+   638
+  ]
+ },
+ "dierenspotter-schets-1": {
+  "page": 13,
+  "src": "JPG Bestanden/Foto's Tekeningen/IMG_0273.png",
+  "inliers": 207,
+  "diff": 0.7,
+  "w": 2400,
+  "h": 1542,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "dierenspotter-schets-2": {
+  "page": 13,
+  "src": "JPG Bestanden/Foto's Tekeningen/IMG_0274.png",
+  "inliers": 93,
+  "diff": 2.0,
+  "w": 948,
+  "h": 923,
+  "sizes": [
+   800,
+   948
+  ]
+ },
+ "dierenspotter-schets-3": {
+  "page": 13,
+  "src": "JPG Bestanden/Foto's Tekeningen/IMG_0275.png",
+  "inliers": 174,
+  "diff": 1.1,
+  "w": 2400,
+  "h": 1765,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "dierenspotter-karton-1": {
+  "page": 13,
+  "src": "pdf",
+  "w": 407,
+  "h": 232,
+  "sizes": [
+   407
+  ]
+ },
+ "dierenspotter-karton-2": {
+  "page": 13,
+  "src": "pdf",
+  "w": 409,
+  "h": 232,
+  "sizes": [
+   409
+  ]
+ },
+ "dierenspotter-karton-3": {
+  "page": 13,
+  "src": "pdf",
+  "w": 407,
+  "h": 232,
+  "sizes": [
+   407
+  ]
+ },
+ "dierenspotter-karton-4": {
+  "page": 13,
+  "src": "pdf",
+  "w": 409,
+  "h": 232,
+  "sizes": [
+   409
+  ]
+ },
+ "dierenspotter-karton-5": {
+  "page": 13,
+  "src": "pdf",
+  "w": 407,
+  "h": 232,
+  "sizes": [
+   407
+  ]
+ },
+ "dierenspotter-karton-6": {
+  "page": 13,
+  "src": "pdf",
+  "w": 409,
+  "h": 232,
+  "sizes": [
+   409
+  ]
+ },
+ "dierenspotter-tussenjury-1": {
+  "page": 14,
+  "src": "pdf",
+  "w": 398,
+  "h": 224,
+  "sizes": [
+   398
+  ]
+ },
+ "dierenspotter-tussenjury-2": {
+  "page": 14,
+  "src": "pdf",
+  "w": 401,
+  "h": 224,
+  "sizes": [
+   401
+  ]
+ },
+ "dierenspotter-tussenjury-3": {
+  "page": 14,
+  "src": "pdf",
+  "w": 398,
+  "h": 224,
+  "sizes": [
+   398
+  ]
+ },
+ "dierenspotter-tussenjury-4": {
+  "page": 14,
+  "src": "pdf",
+  "w": 401,
+  "h": 224,
+  "sizes": [
+   401
+  ]
+ },
+ "dierenspotter-tussenjury-5": {
+  "page": 14,
+  "src": "pdf",
+  "w": 398,
+  "h": 224,
+  "sizes": [
+   398
+  ]
+ },
+ "dierenspotter-tussenjury-6": {
+  "page": 14,
+  "src": "pdf",
+  "w": 401,
+  "h": 224,
+  "sizes": [
+   401
+  ]
+ },
+ "dierenspotter-stap-1": {
+  "page": 14,
+  "src": "pdf",
+  "w": 540,
+  "h": 777,
+  "sizes": [
+   540
+  ]
+ },
+ "dierenspotter-stap-2a": {
+  "page": 14,
+  "src": "pdf",
+  "w": 505,
+  "h": 502,
+  "sizes": [
+   505
+  ]
+ },
+ "dierenspotter-stap-2b": {
+  "page": 14,
+  "src": "pdf",
+  "w": 469,
+  "h": 551,
+  "sizes": [
+   469
+  ]
+ },
+ "dierenspotter-stap-3": {
+  "page": 14,
+  "src": "pdf",
+  "w": 1050,
+  "h": 491,
+  "sizes": [
+   800,
+   1050
+  ]
+ },
+ "dierenspotter-stap-4": {
+  "page": 14,
+  "src": "pdf",
+  "w": 1732,
+  "h": 799,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "dierenspotter-exploded": {
+  "page": 15,
+  "src": "pdf",
+  "w": 1145,
+  "h": 1050,
+  "sizes": [
+   800,
+   1145
+  ]
+ },
+ "dierenspotter-finaal-1": {
+  "page": 15,
+  "src": "pdf",
+  "w": 1227,
+  "h": 627,
+  "sizes": [
+   800,
+   1227
+  ]
+ },
+ "dierenspotter-finaal-2": {
+  "page": 15,
+  "src": "pdf",
+  "w": 617,
+  "h": 628,
+  "sizes": [
+   617
+  ]
+ },
+ "dierenspotter-luidspreker": {
+  "page": 15,
+  "src": "pdf",
+  "w": 316,
+  "h": 294,
+  "sizes": [
+   316
+  ]
+ },
+ "dierenspotter-finaal-3a": {
+  "page": 15,
+  "src": "pdf",
+  "w": 425,
+  "h": 354,
+  "sizes": [
+   425
+  ]
+ },
+ "dierenspotter-finaal-3b": {
+  "page": 15,
+  "src": "pdf",
+  "w": 900,
+  "h": 409,
+  "sizes": [
+   800
+  ]
+ },
+ "dierenspotter-finaal-4": {
+  "page": 15,
+  "src": "pdf",
+  "w": 1528,
+  "h": 720,
+  "sizes": [
+   800,
+   1528
+  ]
+ },
+ "dierenspotter-kartonfinaal-1": {
+  "page": 16,
+  "src": "pdf",
+  "w": 963,
+  "h": 535,
+  "sizes": [
+   800,
+   963
+  ]
+ },
+ "dierenspotter-kartonfinaal-2": {
+  "page": 16,
+  "src": "pdf",
+  "w": 963,
+  "h": 535,
+  "sizes": [
+   800,
+   963
+  ]
+ },
+ "dierenspotter-kartonfinaal-3": {
+  "page": 16,
+  "src": "pdf",
+  "w": 963,
+  "h": 534,
+  "sizes": [
+   800,
+   963
+  ]
+ },
+ "dierenspotter-kartonfinaal-4": {
+  "page": 16,
+  "src": "pdf",
+  "w": 963,
+  "h": 534,
+  "sizes": [
+   800,
+   963
+  ]
+ },
+ "dierenspotter-test-1": {
+  "page": 16,
+  "src": "pdf",
+  "w": 1213,
+  "h": 682,
+  "sizes": [
+   800,
+   1213
+  ]
+ },
+ "dierenspotter-test-2": {
+  "page": 16,
+  "src": "pdf",
+  "w": 1213,
+  "h": 681,
+  "sizes": [
+   800,
+   1213
+  ]
+ },
+ "koffiemachine-hero": {
+  "page": 17,
+  "src": "SolidWorks Renders/CAD_Vervolmaking/Koffiemachine Visualize (6) 4K.png",
+  "bg": "#D8E6EE",
+  "w": 3840,
+  "h": 2160,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "koffiemachine-ref-1": {
+  "page": 18,
+  "src": "pdf",
+  "w": 655,
+  "h": 641,
+  "sizes": [
+   655
+  ]
+ },
+ "koffiemachine-ref-2": {
+  "page": 18,
+  "src": "pdf",
+  "w": 690,
+  "h": 695,
+  "sizes": [
+   690
+  ]
+ },
+ "koffiemachine-ref-3": {
+  "page": 18,
+  "src": "pdf",
+  "w": 491,
+  "h": 750,
+  "sizes": [
+   491
+  ]
+ },
+ "koffiemachine-werkplek": {
+  "page": 18,
+  "src": "JPG Bestanden/Foto's/IMG_6875.jpg",
+  "inliers": 282,
+  "diff": 10.0,
+  "w": 2400,
+  "h": 1800,
+  "sizes": [
+   800,
+   1600
+  ]
+ },
+ "koffiemachine-achter": {
+  "page": 19,
+  "src": "SolidWorks Renders/CAD_Vervolmaking/Koffiemachine Visualize (15).png",
+  "inliers": 33,
+  "diff": 2.1,
+  "w": 975,
+  "h": 1515,
+  "sizes": [
+   800,
+   975
+  ]
+ },
+ "koffiemachine-voor": {
+  "page": 19,
+  "src": "pdf",
+  "w": 1132,
+  "h": 1680,
+  "sizes": [
+   800,
+   1132
+  ]
+ },
+ "koffiemachine-boven": {
+  "page": 19,
+  "src": "pdf",
+  "w": 886,
+  "h": 1077,
+  "sizes": [
+   800
+  ]
+ }
+}

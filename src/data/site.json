@@ -1,0 +1,46 @@
+{
+  "_comment": "Persoonlijke gegevens en vaste teksten. Waarden met PLACEHOLDER moeten nog aangepast worden.",
+  "name": "Rein Lasure",
+  "firstName": "Rein",
+  "role": "Product Developer",
+  "roleNl": "Student Productontwikkeling",
+  "discipline": "Productontwikkeling",
+  "period": "2024 - 2025",
+  "selectedWorks": "Geselecteerde werken",
+  "tagline": "Minimalistische, functionele producten die intuïtief aanvoelen.",
+  "intro": "In mijn ontwerpen herken je voornamelijk een minimalistische en dynamische vormgeving. Tijdens mijn opleiding combineer ik analytisch denken met creativiteit om tot doordachte, gebruiksvriendelijke en esthetische oplossingen te komen.",
+  "vision": "Als ontwerper streef ik naar minimalistische en functionele ontwerpen waarbij esthetiek gecombineerd wordt met gebruiksvriendelijkheid. Ik wil zaken creëren die intuïtief aanvoelen, naadloos passen binnen de leefwereld van de gebruiker en een band scheppen met de consument.",
+  "education": [
+    { "label": "Opleiding", "title": "Productontwikkeling", "place": "Universiteit Antwerpen" }
+  ],
+  "experience": [
+    { "label": "Stage", "title": "Stage bij [Naam badkamerbedrijf]", "place": "Zaventem", "_todo": "PLACEHOLDER: naam bedrijf aanpassen" }
+  ],
+  "digitalSkills": [
+    { "name": "SolidWorks", "icon": "solidworks", "iconOnly": true, "score": 3.5 },
+    { "name": "SolidWorks Visualize", "icon": "solidworks-visualize", "iconOnly": true, "score": 3.5 },
+    { "name": "Photoshop", "icon": "photoshop", "score": 3 },
+    { "name": "Procreate", "icon": "procreate", "score": 3 },
+    { "name": "Davinci Resolve", "icon": "davinci-resolve", "score": 2 },
+    { "name": "SPSS", "icon": "spss", "iconOnly": true, "score": 2 }
+  ],
+  "softSkills": ["Zelfdiscipline", "Precisie", "Authenticiteit", "Duidelijke communicatie", "Structuur"],
+  "interests": ["Dynamische vormgeving", "Sport", "Historiek van kunst/architectuur", "Avontuur", "User Experience Design"],
+  "services": [
+    { "title": "Concept & schetsen", "text": "Van eerste vormverkenning tot uitgewerkt concept, met de gebruiker als vertrekpunt." },
+    { "title": "Ergonomie & gebruiksonderzoek", "text": "Moodboards, scenario's en mens-productrelaties die richting geven aan het ontwerp." },
+    { "title": "CAD & surfacing", "text": "Precieze 3D-modellering en surface-modellering in SolidWorks." },
+    { "title": "Prototyping", "text": "Karton-, schuim- en 3D-geprinte modellen om ideeën snel te toetsen." },
+    { "title": "Renders & visualisatie", "text": "Fotorealistische productbeelden in SolidWorks Visualize en Photoshop." },
+    { "title": "Productanalyse & maakbaarheid", "text": "Bestaande producten ontleden en het assemblageproces optimaliseren." }
+  ],
+  "contact": {
+    "email": "rein.lasure@student.uantwerpen.be",
+    "phone": "+32 400 00 00 00",
+    "_phoneTodo": "PLACEHOLDER",
+    "linkedin": "https://www.linkedin.com/",
+    "_linkedinTodo": "PLACEHOLDER: vervang door je eigen profiel-URL",
+    "location": "Antwerpen, België",
+    "portfolioPdf": "/downloads/Rein_Lasure_Portfolio.pdf"
+  }
+}
