@@ -98,6 +98,8 @@ $$('.process').forEach((dlg) => {
 });
 
 /* ---------- Animaties laden (fase 3) ---------- */
+// Vangnet: de intro mag scrollen nooit langer dan 7 s blokkeren.
+setTimeout(() => document.documentElement.classList.remove('is-loading'), 7000);
 import('./motion.js')
   .then((m) => m.init?.())
   .catch((err) => {
