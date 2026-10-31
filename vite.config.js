@@ -15,7 +15,7 @@ const contentPlugin = () => ({
 });
 
 export default defineConfig({
-  // Op GitHub Pages staat de site in een submap (/Portfolio-Rein/); lokaal gewoon '/'.
+  // Op GitHub Pages staat de site in een submap (/Portfolio-website-Rein/); lokaal gewoon '/'.
   base: process.env.BASE || '/',
   plugins: [contentPlugin()],
   build: { target: 'es2020', cssMinify: true },
